@@ -56,21 +56,21 @@ int main(int argc, char **argv) {
 
 		// Executa a ação escolhida
 		switch (opcao) {
-			case ADICIONAR_COMPROMISSO:
-				adicionarCompromisso();
-				break;
-			case REMOVER_COMPROMISSO:
-				// TODO implementar
-				std::cout << "Falta implementar." << std::endl;
-				break;
-			case MOSTRAR_COMPROMISSO:
-				verCompromissos();
-				break;
-			case EDITAR_COMPROMISSO:
-				// TODO implementar
-				std::cout << "Falta implementar." << std::endl;
-				break;
-		}
+					case ADICIONAR_COMPROMISSO:
+						adicionarCompromisso();
+						break;
+					case REMOVER_COMPROMISSO:
+						// TODO implementar
+						removerCompromisso();
+						break;
+					case MOSTRAR_COMPROMISSO:
+						mostrarCompromisso();
+						break;
+					case EDITAR_COMPROMISSO:
+						// TODO implementar
+						editarCompromisso();
+						break;
+				}
 
 		// Exibe o menu novamente
 		exibeMenu();
